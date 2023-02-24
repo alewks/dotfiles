@@ -1,0 +1,35 @@
+env:
+  TERM: xterm-256color
+
+# Font configuration
+font:
+  normal:
+    family: Terminus 
+
+  bold:
+    family: Terminus
+  
+  italic:
+    family: Terminus
+
+  bold_italic:
+    family: Terminus 
+
+    style: Bold Italic
+
+
+# Colors 
+colors:
+  # Default colors
+  primary:
+    background: '#090909'
+    foreground: '#cecece'
+
+cursor:
+  # Cursor style
+  style:
+    # Beam - |
+    shape: Beam 
+
+# Live config reload (changes require restart)
+live_config_reload: true
