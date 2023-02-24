@@ -16,6 +16,9 @@ end
 -- Better colors
 o.termguicolors = true
 
+-- Change color scheme
+vim.cmd [[ colorscheme useless-colors ]]
+
 -- Decrease update time
 o.timeoutlen = 500
 o.updatetime = 200
@@ -25,6 +28,7 @@ o.scrolloff = 8
 
 -- Options for better UI and editing
 o.number = true
+o.cursorline = true
 o.expandtab = true
 o.smarttab = true
 o.autoindent = true
@@ -47,6 +51,7 @@ Plug('scrooloose/nerdtree', {on = {'NERDTreeToggle', 'NERDTree'}})
 Plug 'Valloric/YouCompleteMe'
 Plug 'jiangmiao/auto-pairs'
 Plug 'itchyny/lightline.vim'
+Plug 'ap/vim-css-color'
 
 vim.call('plug#end')
 
