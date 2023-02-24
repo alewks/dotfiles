@@ -17,10 +17,8 @@ font:
 
     style: Bold Italic
 
-
 # Colors 
 colors:
-  # Default colors
   primary:
     background: '#090909'
     foreground: '#cecece'
